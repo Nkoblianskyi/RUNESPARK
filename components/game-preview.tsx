@@ -55,7 +55,7 @@ export default function GamePreview() {
       </Card>
 
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="sm:max-w-md">
+        <DialogContent className="sm:max-w-xl">
           <DialogHeader>
             <DialogTitle className="flex items-center gap-2">
               <AlertTriangle className="h-5 w-5 text-amber-500" />
@@ -72,10 +72,10 @@ export default function GamePreview() {
                   <AlertTriangle className="h-5 w-5 text-amber-500" aria-hidden="true" />
                 </div>
                 <div className="ml-3">
-                  <h3 className="text-sm font-medium text-amber-800 dark:text-amber-200">Viktig informasjon</h3>
-                  <div className="mt-2 text-sm text-amber-700 dark:text-amber-300">
+                  <h3 className="text-md font-medium text-amber-800 dark:text-amber-200">Viktig informasjon</h3>
+                  <div className="mt-2 text-md text-amber-700 dark:text-amber-300">
                     <p>
-                      RuneSpark Studio er kun en sosial spillplattform for underholdningsformål. Ingen ekte penger er
+                      RuneSpark Studio er   kun en sosial spillplattform for underholdningsformål. Ingen ekte penger er
                       involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
                     </p>
                   </div>
@@ -92,6 +92,7 @@ export default function GamePreview() {
             </Button>
           </DialogFooter>
         </DialogContent>
+
       </Dialog>
     </>
   )

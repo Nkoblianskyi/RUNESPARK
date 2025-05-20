@@ -120,7 +120,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl font-bold text-muted-foreground max-w-2xl mx-auto text-yellow-600">
               <strong>MERK:</strong> Dette er et sosialt spill kun for underholdning. Ingen ekte penger er involvert,
               ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
             </p>

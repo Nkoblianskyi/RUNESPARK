@@ -1,9 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
+import Disclaimer from "./disclaimer"
 
 export default function Footer() {
   return (
     <footer className="w-full border-t bg-black/10">
+      <Disclaimer />
       <div className="container py-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-3">
